@@ -7,11 +7,11 @@ import java.util.List;
 
 public class CarService {
     private final List<Car> cars = Arrays.asList(
-            new Car("Toyota","A",  2020),
-            new Car("Honda", "S", 2019),
-            new Car("Ford",  "R",2021),
-            new Car("Chevrolet",  "K",2018),
-            new Car("BMW",  "L",2022)
+            new Car("LADA","GRANTA",  2020),
+            new Car("KAMAZ", "NEO", 2019),
+            new Car("Ford",  "FOCUS",2021),
+            new Car("JAC",  "JAC",2018),
+            new Car("BMW",  "BRABUS",2022)
     );
 
     public List<Car> getCars(int count) {
